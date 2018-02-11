@@ -1,2 +1,2 @@
 # CS61A
-UC Berkeley
+UC Berkeley (Sprint 2018)

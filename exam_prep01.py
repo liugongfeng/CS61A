@@ -2,7 +2,8 @@
 """
 Implement the longest_increasing_suffix function, which returns
 the longest suffix (end) of a positive integer that
-consists of strictly increasing digits.
+consists of strictly increasing digits.
+
 """
 def longest_increasing_suffix(n):
     """Return the longest increasing suffix of a positive
@@ -83,14 +84,14 @@ def luhn_sum(n):
     30
     """
     def luhn_digit(digit):
-        x = digit * ..
-        return (x//10) + ..
+        x = digit * multiplier
+        return (x//10) + x%10
 
     total, multiplier = 0, 1
     while n:
         n, last = n//10, n%10
         total = total + luhn_digit(last)
-        multiplier = .. - multiplier
+        multiplier = 3 - multiplier
     return total
 
 

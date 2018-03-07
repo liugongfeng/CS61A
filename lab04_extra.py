@@ -1,5 +1,5 @@
 """ Lab 04 Optional Questions """
-"""$ python -i lab04.py   
+"""$ python -i lab04_extra.py   
     >>> start_game()
 """
 

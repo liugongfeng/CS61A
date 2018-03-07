@@ -1,4 +1,7 @@
 """ Lab 04 Optional Questions """
+"""$ python -i lab04.py   
+    >>> start_game()
+"""
 
 from lab04 import *
 

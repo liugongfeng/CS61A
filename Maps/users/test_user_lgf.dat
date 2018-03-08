@@ -1,0 +1,18 @@
+make_user(
+    'gonphou',     # name
+    [                   # reviews
+        # Northside restaurants
+        make_review('Jasmine Thai',0),
+        make_review('Gomnaru Restaurant',0),
+        make_review('Momo Masala', 0),
+        make_review('Top Dog 2',0),
+        make_review('Camille', 0),
+        make_review('T C Garden Restaurant', 0),
+        make_review('Hummingbird Cafe', 0),
+        make_review('Celia\'s', 0),
+        make_review('Northside Cafe', 0),
+        make_review('La Val\'s Pizza', 0),
+        make_review('Cupkates',0),
+        
+    ]
+)

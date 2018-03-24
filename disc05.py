@@ -4,7 +4,7 @@ implementing some of what was described above. Remember that we pass the self
 argument implicitly to instance methods when using dot-notation. """
 
 class Instructor:
-	degree = 'PhD (Magic)'   	# This is a class attribute
+	degree = 'PhD (Magic)'   		# This is a class attribute
 
 	def __init__(self, name):
 		self.name = name 		# this is an instance attribute
@@ -77,7 +77,7 @@ class Mailman:
 	def send(self, email):
 		"""Take an email and put it in the inbox of the client
 		it is addressed to"""
-		client = self.clients[email.	recipient_name]
+		client = self.clients[email.recipient_name]
 		client.receive(email)
 
 	def register_client(self, client, client_name):

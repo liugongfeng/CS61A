@@ -16,7 +16,7 @@ def deep_len(lnk):
     5
     """
     #"*** YOUR CODE HERE ***"
-    if lnk is Link.empty
+    if lnk is Link.empty:
         return 0
     elif not isinstance(lnk, Link):
         return 1

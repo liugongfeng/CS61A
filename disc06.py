@@ -72,7 +72,7 @@ def foo(n):
 
 
 
-import compo
+from compo import *
 
 def multiply_lnks(lst_of_lnks):
 	"""

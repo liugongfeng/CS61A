@@ -1,0 +1,12 @@
+
+python3 recommend.py -u likes_expensive -k 2 -p -q Sandwiches 
+
+
+(choose from 'Creperies', 'Vegetarian', 'Coffee & Tea', 'Bakeries', 'Cafes', 'Convenience Stores', 'Food',
+ 'Pakistani', 'Restaurants', 'Mediterranean', 'Sandwiches', 'Beer, Wine & Spirits', 'Barbeque', 'Greek',
+ 'Grocery', 'Korean', 'Nightlife', 'Japanese', 'Asian Fusion', 'Pubs', 'Soup', 'Thai', 'Books, Mags, Music and Video',
+ 'Middle Eastern', 'Caribbean', 'Indian', 'Sports Bars', 'Food Stands', 'Food Trucks', 'Persian/Iranian', 'Fast Food', 
+ 'Chinese', 'Caterers', 'Brazilian', 'Music & DVDs', 'Hot Dogs', 'Dim Sum', 'Street Vendors', 'African', 'Bars', 
+ 'Juice Bars & Smoothies', 'Salad', 'American (New)', 'Delis', 'Desserts', 'Shopping', 'Mexican', 'Fish & Chips', 
+ 'Sushi Bars', 'Burgers', 'Event Planning & Services', 'Ethnic Food', 'Buffets', 'Vegan', 'Fondue', 'Breakfast & Brunch', 
+ 'Pizza', 'Halal', 'American (Traditional)', 'Italian', 'Specialty Food', 'Turkish', 'Chicken Wings', 'Vietnamese')

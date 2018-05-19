@@ -235,11 +235,13 @@ def balanced(m):
     False
     """
     "*** YOUR CODE HERE ***"
+    if is_weight(m):
+        return True
     left_side = sides(m)[0]
     right_side = sides(m)[1]
-    left_torque = length(left_side) * total_weight(left_side)
-    right_torque = length(right_side) * total_weight(right_side)
-    return left_torque == right_torque and balanced(left_side) and balanced(right_side)
+    left_torque = length(left_side) * total_weight(end(left_side))
+    right_torque = length(end(right_side)) * total_weight(end(right_side))
+    return left_torque == right_torque and balanced(end(left_side)) and balanced(end(right_side))
 
 
 #######

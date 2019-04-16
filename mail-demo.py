@@ -1,7 +1,7 @@
 import smtplib, os, imghdr
 from email.message import EmailMessage
 
-contacts = ['liugong.feng@aliyun.com', 'liugong.feng@outlook.com', 'gonphou@gmail.com']
+contacts = ['??@aliyun.com', '??.com', '??.com']
 
 EMAIL_ADDRESS =  os.environ.get('QEmail')
 EMAIL_PASSWORD = os.environ.get('QEmailPassword')
